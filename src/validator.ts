@@ -23,9 +23,9 @@ export function validateSchemaId(data, val): ValidateSchemaInterface {
     const { details } = error;
     const { message, path } = details[0];
 
-    // get custom error if exists else use joi errors
-    // eslint-disable-next-line no-prototype-builtins
     return {
+      // get custom error if exists else use joi errors
+      // eslint-disable-next-line no-prototype-builtins
       error: data.errors?.hasOwnProperty(path[0])
         ? data.errors[path[0]]
         : snakeToCapitalize(message),
