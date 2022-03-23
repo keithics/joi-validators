@@ -2,19 +2,19 @@
 
 exports[`Ark Error Handler Tests INVALID Array - should return error friendly message 1`] = `
 Object {
-  "error": "List weight is required",
+  "error": "List[0].weight is required",
 }
 `;
 
 exports[`Ark Error Handler Tests INVALID Array with missing item value - should return error friendly message 1`] = `
 Object {
-  "error": "List keywords is not allowed to be empty",
+  "error": "List[0].keywords is not allowed to be empty",
 }
 `;
 
 exports[`Ark Error Handler Tests INVALID Array with missing item value at index 1 - should return error friendly message 1`] = `
 Object {
-  "error": "List keywords is not allowed to be empty",
+  "error": "List[1].keywords is not allowed to be empty",
 }
 `;
 

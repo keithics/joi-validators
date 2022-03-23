@@ -1,6 +1,6 @@
 {
   "name": "@keithics/joi-validators",
-  "version": "1.0.7",
+  "version": "2.0.7",
   "description": "Error handing and Error codes",
   "main": "index.js",
   "scripts": {
