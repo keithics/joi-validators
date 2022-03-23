@@ -1,5 +1,5 @@
 {
-  "name": "@keithics/joi",
+  "name": "@keithics/joi-validators",
   "version": "1.0.6",
   "description": "Error handing and Error codes",
   "main": "index.js",
@@ -17,17 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/keithics/joi.git"
+    "url": "git+ssh://git@github.com/keithics/joi-validators.git"
   },
   "author": "keithics",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keithics/joi/issues"
+    "url": "https://github.com/keithics/joi-validators/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://github.com/keithics/joi#readme",
+  "homepage": "https://github.com/keithics/joi-validators#readme",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
