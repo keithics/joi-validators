@@ -40,7 +40,9 @@ describe('Ark Error Handler Tests', () => {
   });
 
   test('VALID object ID - should return error if objectID is invalid', () => {
-    expect(validateSchemaId(objectIdValidatorRequired, { sellerId: '0'.repeat(24) })).toMatchSnapshot();
+    expect(
+      validateSchemaId(objectIdValidatorRequired, { sellerId: '0'.repeat(24) })
+    ).toMatchSnapshot();
   });
 
   test('VALID String - should return error friendly message', () => {

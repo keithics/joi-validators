@@ -25,7 +25,11 @@ export function validateSchemaId(data, val): ValidateSchemaInterface {
 
     // get custom error if exists else use joi errors
     // eslint-disable-next-line no-prototype-builtins
-    return { error: data.errors?.hasOwnProperty(path[0]) ? data.errors[path[0]] : snakeToCapitalize(message) };
+    return {
+      error: data.errors?.hasOwnProperty(path[0])
+        ? data.errors[path[0]]
+        : snakeToCapitalize(message),
+    };
   }
 }
 /**
