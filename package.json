@@ -1,5 +1,5 @@
 {
-  "name": "@keithics/joi-validators",
+  "name": "@keithix/joi-validators",
   "version": "2.0.8",
   "description": "Error handing and Error codes",
   "main": "index.js",
@@ -24,9 +24,6 @@
   "bugs": {
     "url": "https://github.com/keithics/joi-validators/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "homepage": "https://github.com/keithics/joi-validators#readme",
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -50,7 +47,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@keithics/core": "^2.0.12",
+    "@keithix/core": "^2.0.12",
     "joi": "^17.6.0",
     "mongoose": "^6.2.0"
   },
