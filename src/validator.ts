@@ -1,4 +1,4 @@
-import { snakeToCapitalize } from '@keithics/core/lib/helpers';
+import { snakeToCapitalize } from '@keithix/core/lib/helpers';
 
 interface ValidateSchemaInterface {
   error: string;
